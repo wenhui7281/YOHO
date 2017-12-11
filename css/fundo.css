@@ -1,0 +1,256 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#big-warp {
+	width: 100%;
+	height: 320px;
+	background: black;
+	position: relative;
+}
+
+#promise {
+	width: 100%;
+	height: 64px;
+	padding: 14px 0;
+	box-sizing: border-box;
+}
+
+.promise-count {
+	width: 1150px;
+	height: 34px;
+	margin: 0 auto;
+}
+
+.count-conter {
+	width: 130px;
+	height: 31px;
+	float: left;
+}
+
+.count-conter>span {
+	float: left;
+}
+
+.pho {
+	width: 30px;
+	height: 31px;
+	/*display: block;*/
+	background: url(../img/zheng.png);
+}
+
+.bai {
+	margin: 7px 0 0 8px;
+	font-size: 12px;
+	color: red;
+}
+
+.rab {
+	font-size: 12px;
+	margin: 7px 0 0 8px;
+	font-weight: 200px;
+	color: white
+}
+
+.logis {
+	width: 150px;
+	height: 31px;
+	float: left;
+	margin-left: 30px;
+}
+
+.logis>span {
+	float: left;
+}
+
+.pho-two {
+	width: 30px;
+	height: 31px;
+	background: url(../img/cartfill.png)no-repeat 0 2px;
+}
+
+.seven {
+	margin: 7px 0 0 8px;
+	font-size: 12px;
+	color: red;
+}
+
+.retreat {
+	font-size: 12px;
+	margin: 7px 0 0 8px;
+	font-weight: 200px;
+	color: white
+}
+
+.wechat {
+	width: 120px;
+	height: 31px;
+	float: left;
+	margin-left: 30px;
+}
+
+.wechat>span {
+	float: left;
+}
+
+.chat {
+	width: 30px;
+	height: 31px;
+	background: url(../img/wechat.png);
+}
+
+.service {
+	margin: 7px 0 0 8px;
+	font-size: 12px;
+	color: red;
+}
+
+.online {
+	font-size: 12px;
+	margin: 7px 0 0 8px;
+	font-weight: 200px;
+	color: white
+}
+
+#right-inp {
+	width: 240px;
+	height: 34px;
+	float: right;
+	padding: 3px 0 0 15px;
+	box-sizing: border-box;
+	border: 1px solid silver;
+	margin-left: 20px;
+}
+
+.inp {
+	width: 180px;
+	height: 29px;
+	color: silver;
+	border: none;
+	outline: none;
+	background: black;
+}
+
+#right-inp a {
+	width: 20px;
+	height: 20px;
+	display: block;
+	float: right;
+	background: url(../img/sprite.scss.png) 266px 187px;
+	position: absolute;
+	right: 120px;
+	top: 17px;
+}
+
+br {
+	clear: both;
+}
+
+#footer {
+	width: 100%;
+	height: 151px;
+}
+
+#footer-ter {
+	width: 1150px;
+	height: 150px;
+	margin: 0 auto;
+	border-top: 1px solid silver;
+}
+
+.all {
+	width: 160px;
+	height: 151px;
+	float: left;
+	padding: 15px 0 0 0;
+	box-sizing: border-box;
+}
+
+.all>li {
+	width: 170px;
+	height: 24px;
+	font-size: 12px;
+	text-align: center;
+	color: silver;
+}
+
+.all>.active {
+	color: white;
+	font-weight: bolder;
+}
+
+#last-warp {
+	width: 100%;
+	height: 105px;
+}
+
+#footer-link {
+	width: 1150px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.footer-ling {
+	width: 218px;
+	height: 40px;
+	background: black;
+	float: left;
+}
+
+.police {
+	width: 26px;
+	height: 34px;
+	background: url(../img/ebsIcon.png) no-repeat;
+	float: left;
+	margin-right: 8px;
+}
+
+.credible {
+	width: 93px;
+	height: 34px;
+	background: url(../img/credit-flag3.png)no-repeat;
+	float: left;
+	margin-right: 5px;
+}
+
+.china-inter {
+	width: 77px;
+	height: 34px;
+	background: url(../img/isc2.png)no-repeat;
+	float: left;
+}
+
+#links {
+	width: 920px;
+	height: 40px;
+	float: right;
+}
+
+#links>p {
+	font-size: 12px;
+	color: silver;
+	float: left;
+}
+
+.pilc {
+	width: 20px;
+	height: 25px;
+	display: block;
+	background: url(../img/police.png) no-repeat 0 -2px;
+}
+
+.end {
+	width: 1150px;
+	height: 20px;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 15px;
+}
+
+.end>li {
+	font-size: 12px;
+	text-align: center;
+	color: silver;
+}

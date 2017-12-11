@@ -1,0 +1,552 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#nav-warp {
+	width: 100%;
+	float: left;
+	border-bottom: 2px solid black;
+}
+
+#register {
+	width: 990px;
+	height: 66px;
+	/*background: aqua;*/
+	margin: 0 auto;
+}
+
+#register>h2 {
+	width: 171px;
+	height: 66px;
+	background: url(img/logo-en.png) no-repeat;
+	margin: 15px 0 0 0;
+	float: left;
+}
+
+#registr-loginho {
+	width: 394px;
+	height: 66px;
+	float: right;
+	position: relative;
+}
+
+.registr-right {
+	width: 394px;
+	height: 29px;
+	position: absolute;
+	left: 0;
+	bottom: 17px;
+}
+
+.registr-right li {
+	color: #8e8e8e;
+	font-size: 12px;
+	line-height: 26px;
+	float: left;
+}
+
+.loginho {
+	width: 143px;
+	height: 29px;
+}
+
+.hi {
+	height: 15px;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.seprate {
+	width: 69px;
+	height: 29px;
+	margin: 0 0 0 15px;
+	float: left;
+	position: relative;
+}
+
+.biao {
+	width: 20px;
+	height: 20px;
+	float: right;
+	background: url(img/buttom.png) no-repeat 50%;
+	margin-top: 5px;
+	display: block;
+}
+
+.two-nav {
+	background: #f4f4f4;
+	position: absolute;
+	left: 0px;
+	top: 28px;
+	display: none;
+}
+
+.two-nav>li {
+	width: 69px;
+	height: 30px;
+	line-height: 30px;
+	border-top: 1px solid silver;
+}
+
+.seprate:hover {
+	background: #f4f4f4;
+}
+
+.seprate:hover .biao {
+	background: url(img/top.png) no-repeat 50%;
+}
+
+.seprate:hover .two-nav {
+	display: block;
+}
+
+.order {
+	width: 68px;
+	height: 29px;
+	margin-left: 15px;
+}
+
+.secvice {
+	width: 69px;
+	height: 29px;
+	margin: 0 0 0 15px;
+	float: left;
+	position: relative;
+}
+
+.hah {
+	width: 20px;
+	height: 20px;
+	float: right;
+	background: url(img/buttom.png) no-repeat 50%;
+	margin-top: 5px;
+	display: block;
+}
+
+.two-navs {
+	background: #f4f4f4;
+	position: absolute;
+	left: 0px;
+	top: 28px;
+	display: none;
+}
+
+.two-navs>li {
+	width: 69px;
+	height: 30px;
+	line-height: 30px;
+	border-top: 1px solid silver;
+}
+
+.secvice:hover .hah {
+	background: url(img/top.png) no-repeat 50%;
+}
+
+.secvice:hover .two-navs {
+	display: block;
+}
+
+.secvice:hover {
+	background: #f4f4f4;
+}
+
+#warp-center {
+	width: 100%;
+	height: 734px;
+	border-top: 2px solid silver;
+}
+
+#center {
+	width: 1150px;
+	height: 734px;
+	margin: 10px auto;
+}
+
+.hint {
+	width: 1150px;
+	height: 37px;
+	position: relative;
+	margin-top: 50px;
+}
+
+.hint-tip {
+	width: 990px;
+	height: 25px;
+	margin: 15px auto 10px auto;
+	position: absolute;
+	font-size: 12px;
+	left: 100px;
+	top: -3px;
+}
+
+.hint-tip h1 {
+	margin: 0 0 0 340px;
+	color: red;
+}
+
+#left-wechat {
+	width: 576px;
+	height: 418px;
+	position: absolute;
+	top: 280px;
+	left: 100px;
+}
+
+#left-wechat>img {
+	margin: 115px 163px;
+}
+
+#right-wechat {
+	width: 700px;
+	height: 590px;
+	/*background: gold;*/
+	position: absolute;
+	border-left: 1px solid silver;
+	top: 200px;
+	right: 0px;
+}
+
+.wechat-count {
+	width: 600px;
+	height: 565px;
+	/*background: chartreuse;*/
+	position: absolute;
+	right: 0;
+}
+
+.one {
+	width: 100%;
+	height: 50px;
+	position: relative;
+}
+
+#phOne {
+	position: absolute;
+	left: 22px;
+	top: 16px;
+}
+
+#honOne {
+	width: 150px;
+	height: 50px;
+	background: #e8e8e8;
+	font-size: 11px;
+	float: left;
+	display: none;
+	margin-left: 12px;
+	padding: 8px 0 0 5px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+#honOne>a {
+	border-left: 10px solid transparent;
+	border-right: 10px solid #e8e8e8;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	position: absolute;
+	left: -20px;
+	top: 15px;
+}
+
+#yong {
+	width: 250px;
+	height: 50px;
+	text-indent: 18px;
+	float: left;
+	font-size: 16px;
+}
+
+#phone {
+	width: 400px;
+	height: 50px;
+	/*background: black;*/
+	text-indent: 18px;
+	float: left;
+	font-size: 16px;
+}
+
+.two {
+	width: 100%;
+	height: 50px;
+	position: relative;
+	margin-top: 35px;
+}
+
+#ph {
+	position: absolute;
+	left: 22px;
+	top: 16px;
+}
+
+#yong {
+	width: 400px;
+	height: 50px;
+	text-indent: 18px;
+	float: left;
+	font-size: 16px;
+}
+
+#hon {
+	width: 150px;
+	height: 50px;
+	background: #e8e8e8;
+	float: left;
+	font-size: 11px;
+	display: none;
+	margin-left: 12px;
+	padding: 10px 0 0 5px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+#hon>a {
+	border-left: 10px solid transparent;
+	border-right: 10px solid #e8e8e8;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	position: absolute;
+	left: -20px;
+	top: 15px;
+}
+.three {
+	width: 100%;
+	height: 50px;
+	position: relative;
+	margin-top: 35px;
+}
+
+#phThree {
+	position: absolute;
+	left: 22px;
+	top: 16px;
+}
+
+#ya {
+	width: 260px;
+	height: 50px;
+	text-indent: 18px;
+	float: left;
+	font-size: 16px;
+}
+
+#en {
+	display: block;
+	width: 200px;
+	height: 50px;
+	float: left;
+	background: #f3fbfe;
+	margin-left: 15px;
+	padding-left: 120px;
+	box-sizing: border-box;
+}
+
+#en>button {
+	width: 80px;
+	height: 50px;
+	background: white;
+	outline: none;
+	border: none;
+	color: blue;
+	cursor: pointer;
+}
+
+.four {
+	width: 100%;
+	height: 50px;
+	position: relative;
+	margin-top: 35px;
+}
+
+#phFour {
+	position: absolute;
+	left: 22px;
+	top: 16px;
+}
+
+#phoney {
+	width: 230px;
+	height: 50px;
+	text-indent: 18px;
+	float: left;
+	font-size: 16px;
+}
+
+#btns {
+	width: 140px;
+	height: 52px;
+	background: #ff1901;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	margin-left: 10px;
+	color: white;
+	cursor: pointer;
+}
+
+.five {
+	width: 100%;
+	height: 50px;
+	position: relative;
+	margin-top: 35px;
+}
+
+#phFive {
+	position: absolute;
+	left: 22px;
+	top: 16px;
+}
+
+#mi {
+	width: 400px;
+	height: 50px;
+	text-indent: 18px;
+	float: left;
+	font-size: 16px;
+}
+
+#honFive {
+	width: 150px;
+	height: 50px;
+	background: #e8e8e8;
+	float: left;
+	font-size: 11px;
+	display: none;
+	margin-left: 12px;
+	padding: 10px 0 0 5px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+#honFive>a {
+	border-left: 10px solid transparent;
+	border-right: 10px solid #e8e8e8;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	position: absolute;
+	left: -20px;
+	top: 15px;
+}
+
+.six {
+	width: 100%;
+	height: 30px;
+	position: relative;
+	margin-top: 35px;
+}
+
+#phSix {
+	position: absolute;
+	left: 22px;
+	top: 16px;
+}
+
+#mim {
+	width: 400px;
+	height: 50px;
+	text-indent: 18px;
+	float: left;
+	font-size: 16px;
+}
+
+#honSix {
+	width: 150px;
+	height: 30px;
+	background: #e8e8e8;
+	float: left;
+	font-size: 11px;
+	display: none;
+	margin-left: 12px;
+	padding: 7px 0 0 15px;
+	box-sizing: border-box;
+	position: relative;
+	margin-top: 12PX;
+}
+
+#honSix>a {
+	border-left: 10px solid transparent;
+	border-right: 10px solid #e8e8e8;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	position: absolute;
+	left: -20px;
+	top: 5px;
+}
+
+.ck {
+	width: 280px;
+	height: 30px;
+	margin: 20px 0;
+	line-height: 30px;
+	font-size: 12px;
+	float: left;
+	position: relative;
+}
+
+.ck>span {
+	color: #7f6666;
+	position: absolute;
+	top: -3px;
+	left: 18px;
+}
+
+.ck>a {
+	color: red;
+	cursor: pointer;
+	position: absolute;
+	top: -3px;
+	left: 110px;
+}
+
+#btn {
+	width: 400px;
+	height: 50px;
+	color: white;
+	background: #ca3232;
+	;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.last-wn1 {
+	width: 400px;
+	height: 35px;
+	margin-top: 20px;
+}
+
+.last-wn1>span {
+	width: 30px;
+	height: 30px;
+	display: block;
+	float: left;
+	margin: 0 25px 0 11px;
+}
+
+.wechat-one {
+	background: url(img/sprite.passport.png) 142px 190px;
+}
+
+.qq {
+	background: url(img/sprite.passport.png) -565px 228px;
+}
+
+.weibo {
+	background: url(img/sprite.passport.png) -527px 228px;
+}
+
+.zhifu {
+	background: url(img/sprite.passport.png) -451px 228px;
+}
+
+.dou {
+	background: url(img/sprite.passport.png) 180px 190px;
+}
+
+.man {
+	background: url(img/sprite.passport.png) -489px 228px;
+}
